@@ -1,5 +1,12 @@
 package com.knubisoft;
 
-public class Mode {
+public abstract class Mode {
+    void onStrict(){
+        if(this == Strict){
 
+        }
+    };
 }
+
+abstract class Strict extends Mode{}
+abstract class Lenient extends Mode{}

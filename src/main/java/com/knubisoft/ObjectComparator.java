@@ -1,4 +1,5 @@
 package com.knubisoft;
 
-public class ObjectComparator {
+public interface ObjectComparator<T> {
+    void compare(T expected, T actual);
 }

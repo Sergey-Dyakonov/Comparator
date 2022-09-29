@@ -1,6 +1,6 @@
 package com.knubisoft;
 
-public class ErrorHelper {
+public abstract class ErrorHelper {
     public void raise(String msg){
         raise(true, msg);
     }
